@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Foods Webpage</title>
+    <style>
+        a {
+            text-decoration: none;  /* remove underline from hyperlink */
+        }
+        .top {
+            padding: 12px;
+            font-size: 24px;
+            font-weight: 800;
+            color: black;
+        }
+        .top-bar {
+            background-color: rgb(23, 116, 208);
+            padding: 20px;
+            text-align: right;
+        }
+        body {
+            background-color: lightblue;
+        }
+        .image {
+            width: 400px;
+            height: 300px;
+        }
+        .content {
+            font-size: 20px;
+            font-weight: 660;
+        }
+        .content-image {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <a class="top" href="#">Index</a>
+            <a class="top" href="#">Food</a>
+            <a class="top" href="#">About</a>
+        </div>
+    </header>
+    <div class="content">
+        <h4>Top 5 Favorite Foods:</h4>
+        <ul>
+            <li><a href="#biryani">Biryani</a></li>
+            <li><a href="#pizza">Pizza</a></li>
+            <li><a href="#chicken">Fried Chicken</a></li>
+            <li><a href="#burger">Burger</a></li>
+            <li><a href="#egg">Boiled Egg</a></li>
+        </ul>
+    </div>
+    <div class="content-image">
+        <img class="image" id="biryani" src="/biryani.png" alt="Biryani"> <br>
+        <p>Biryani</p>
+        <img class="image" id="pizza" src="/pizza.png" alt="Pizza"> <br>
+        <p>Pizza</p>
+        <img class="image" id="chicken" src="/fried-chicken.png" alt="Fried Chicken"> <br>
+        <p>fried-chicken</p>
+        <img class="image" id="burger" src="/Burger.png" alt="Burger King"> <br>
+        <p>Burger</p>
+        <img class="image" id="egg" src="/egg.jpg" alt="Boiled Egg"> <br>
+        <p>Boiled Egg</p>
+    </div>
+</body>
+</html>
